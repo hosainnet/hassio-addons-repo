@@ -14,7 +14,7 @@ RUN \
         openssl \
         supervisor \
     && mkdir /usr/local/app \
-    && git clone https://github.com/marcelveldt/hass_emulated_hue.git \
+    && git clone https://github.com/hosainnet/hass_emulated_hue.git \
     && pip3 install \
         --no-cache-dir \
         -r hass_emulated_hue/requirements.txt \
